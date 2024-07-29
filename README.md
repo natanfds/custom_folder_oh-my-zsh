@@ -8,10 +8,11 @@ Clone this project on your `~/.oh-my-zsh` folder, if you already had a custom fo
   git clone https://github.com/natanfds/custom_folder_oh-my-zsh.git custom
 ```
 
-Update your git submodules
+Load your git submodules
 
 ``` zsh
   cd ~/.oh-my-zsh custom
+  git submodule init
   git submodule update
 ```
 
